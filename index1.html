@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_comptitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ME-developer Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(10, 10, 60);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(51, 51, 180);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(152, 152, 227);
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(159, 93, 221);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+
+        }
+        .leftSection .button{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+
+            padding: 12px;
+            background: #301c5a;
+            color: white;
+            border: 2px solid;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img {
+            width: 80%;
+
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 115vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: #2b1c43;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            padding: 12px 0;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi! my name is <span class="purple">anmol</span>
+
+                <div>I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                    <button class="btn">visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="wD.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="wD5.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wD6.png" alt="">
+                    <div class="vertical-title">
+                        node js developer(2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wD7.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer-Instagram(2014-2015)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wD9.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer-facebook(2015-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wD10.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer-Twitter(2016-2017)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wD11.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer-You-tube(2017-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="wD12.png" alt="">
+                    <div class="vertical-title">
+                        HTML developer-Whatsapp(2020-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. A repellat deserunt est earum facere,
+                        ex velit voluptatum quaerat fugit nemo nobis et! Ipsum.
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footerfirst">
+                <h3>Anmol's developer Portfolio</h3>
+            </div>
+            <div class="footersecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footerthird">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footerfourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;anmolsportfolio.com| All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', 'Graphic designer', 'Web designer', 'ethical hacker'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
